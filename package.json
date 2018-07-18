@@ -1,0 +1,47 @@
+{
+  "name": "vuejs_training",
+  "version": "1.0.0",
+  "description": "my vuejs training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozknightwalker/VueJS_Training.git"
+  },
+  "keywords": [
+    "VueJS",
+    "Javascript"
+  ],
+  "author": "Jc Din",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozknightwalker/VueJS_Training/issues"
+  },
+  "homepage": "https://github.com/ozknightwalker/VueJS_Training#readme",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}

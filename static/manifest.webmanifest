@@ -1,0 +1,9 @@
+{
+  "name": "Jc Din VueJS Training",
+  "short_name": "Jc VueJS Training",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#448aff",
+  "description": "Jc Din VueJS Training"
+}
